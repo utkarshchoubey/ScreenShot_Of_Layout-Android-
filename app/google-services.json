@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "529135125127",
+    "firebase_url": "https://aboutvivifying2.firebaseio.com",
+    "project_id": "aboutvivifying2",
+    "storage_bucket": "aboutvivifying2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:529135125127:android:ab4c683addef0992",
+        "android_client_info": {
+          "package_name": "com.example.utkarsh.aboutvivifying"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "529135125127-jrvc35t976gp44fjghncsvfi82kabv0s.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.utkarsh.aboutvivifying",
+            "certificate_hash": "dcffaafc9bf98c2636e770ff751381f6fb8717e1"
+          }
+        },
+        {
+          "client_id": "529135125127-aak7d0o8ua3th2oisdtlfgpf8643ir27.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDw8O3tB_CiJZ4Vc-NmSMBz7i3yhW9eHxs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "529135125127-aak7d0o8ua3th2oisdtlfgpf8643ir27.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

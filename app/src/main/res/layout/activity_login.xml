@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/appsignupevent"
+    tools:context=".loginActivity">
+
+    <EditText
+        android:id="@+id/editTextName"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:layout_centerInParent="true"
+        android:background="#11000000"
+        android:drawableLeft="@drawable/u"
+        android:textColor="#ffffff"
+        android:ems="10"
+        android:hint="Enter Name"
+        android:textStyle="italic"
+        android:textColorHint="#ffffff"
+        android:textSize="16dp" />
+
+    <EditText
+        android:id="@+id/editTextPhone"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/editTextName"
+        android:layout_centerHorizontal="true"
+        android:textColor="#ffffff"
+        android:fontFamily="@font/trebuchet"
+        android:background="#11000000"
+        android:drawableLeft="@drawable/m"
+        android:ems="10"
+        android:hint="Enter Mobile Number"
+        android:inputType="textPersonName"
+        android:textColorHint="#ffffff"
+        android:textSize="16dp" />
+
+    <Button
+        android:id="@+id/buttonGetVerificationCode"
+        style="@style/Widget.AppCompat.Button.Small"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="128dp"
+        android:text="Get Code" />
+
+    <EditText
+        android:id="@+id/editTextCode"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:fontFamily="@font/trebuchet"
+        android:layout_marginBottom="72dp"
+        android:layout_marginStart="17dp"
+        android:textColor="#ffffff"
+        android:ems="10"
+        android:hint="Enter Code Here"
+        android:inputType="phone"
+        android:textColorHint="#ffffff" />
+
+    <Button
+        android:id="@+id/buttonSignIn"
+        style="@style/Widget.AppCompat.Button.Small"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/editTextCode"
+        android:layout_toEndOf="@+id/buttonGetVerificationCode"
+        android:text="Login" />
+
+
+</RelativeLayout>
